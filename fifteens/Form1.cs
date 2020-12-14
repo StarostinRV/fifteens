@@ -48,7 +48,7 @@ namespace fifteens
                 {
                     for (int j = i + 1; j < 16; j++)
                     {
-                        if (model[j / 4, j % 4] < model[i / 4, i % 4]) sum++;
+                         if (model[j / 4, j % 4] < model[i / 4, i % 4]) sum++;
                     }
                 }
                 else sum += i / 4 + 1;
