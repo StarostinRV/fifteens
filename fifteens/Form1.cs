@@ -237,7 +237,7 @@ namespace fifteens
 
         private void опрограммеToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Зелянов" + "\n" + "Петренко" + "\n" + "Старостин","Создатели");
+            MessageBox.Show("Старостин","Создатели");
         }
     }
 }
